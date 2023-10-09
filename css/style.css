@@ -2,10 +2,9 @@
 :root {
     --primary: #555006;
     --secondary: rgb(66, 6, 6);
-    --light: #f0f6ff;
+    --light: hsl(216, 87%, 41%);
     --dark: #262b47;
 }
-
 /*** Spinner ***/
 #spinner {
     opacity: 0;
@@ -79,9 +78,14 @@
 }
 /*** Heading ***/
 h1,
-h2,
 .fw-bold {
     font-weight: 700 !important;
+    color: #011792;
+}
+h2,
+.main {
+    font-weight: 700 !important;
+    color: rgb(77, 21, 8);
 }
 
 h3,
@@ -340,6 +344,38 @@ h6,
         padding: 6rem 0 9rem 0;
     }
 }
+/*** About page ***/
+.about{
+    width: 100%;
+    padding: 70px 0px;
+    background-image: url("img/background.jpg");
+}
+.about img{
+    height: auto;
+    width: 420px;
+}
+.about-text {
+    width: 550px;
+}
+.about-text h2 {
+    color: rgb(144, 50, 3);
+    font-size: 80px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+span{
+    color: rgb(223, 146, 51);
+}
+.about-text p {
+    color: rgb(5, 199, 102);
+    font-size: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-style: italic;
+    text-align: center;
+}
 
 /*** Feature ***/
 .feature-item {
@@ -397,7 +433,7 @@ h6,
     top: 0;
     left: 0;
     background: url(../img/laptop.jpg) center center no-repeat;
-    background-size: 100px 100px;
+    background-size: 253px 500px;
     z-index: 1}
 
 .screenshot-carousel .owl-item img {
