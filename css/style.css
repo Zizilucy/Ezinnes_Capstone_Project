@@ -396,10 +396,9 @@ h6,
     height: 100%;
     top: 0;
     left: 0;
-    background: url(../img/screenshot-frame.png) center center no-repeat;
-    background-size: 253px 500px;
-    z-index: 1;
-}
+    background: url(../img/laptop.jpg) center center no-repeat;
+    background-size: 100px 100px;
+    z-index: 1}
 
 .screenshot-carousel .owl-item img {
     position: relative;
