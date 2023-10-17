@@ -30,6 +30,7 @@ https://getbootstrap.com/docs/5.0/getting-started/introduction/
 https://stackoverflow.com/questions/44386456/change-carousel-left-right-position-bootstrap-3-html
 https://www.w3schools.com/w3css/w3css_progressbar.asp
 https://www.w3schools.com/css/css3_animations.asp
+https://ordinarycoders.com/blog/article/codepen-bootstrap-card-hovers#google_vignette
 
 Author
 https://www.github.com/Zizylucy 
