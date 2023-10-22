@@ -1,9 +1,19 @@
 /********** Template CSS **********/
 :root {
-    --primary: #555006;
+    --primary: #675b03;
     --secondary: rgb(66, 6, 6);
-    --light: hsl(216, 87%, 41%);
+    --light: hsl(38, 9%, 83%);
     --dark: #262b47;
+}
+/***Disable horizontal scroll on mobile view***/
+html, body {
+    overflow-x: hidden;
+    body {
+        position: relative;
+    }
+}
+.skills{
+    right: 20px;
 }
 /*** Spinner ***/
 #spinner {
@@ -149,7 +159,7 @@ h6,
 .btn {
     transition: 0.5s;
     color: #ffffff;
-    background-color: #502002;
+    background-color: #a96602;
 } /* line2 and 3 above applies a different text and colour to the background*/
 
 .btn.btn-primary-gradient,

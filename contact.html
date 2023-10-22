@@ -3,9 +3,10 @@
     <head>
         <meta charset="utf-8" />
         <title>Contact</title>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="width=device-width, user-scalable=no, initial-scale=1.0" name="viewport"/>
         <meta content="" name="keywords" />
         <meta content="" name="description" />
+        <meta content="yes" name="apple-mobile-web-app-capable"/>
 
         <!-- Favicon -->
         <link href="img/favicon.ico" rel="icon" />
@@ -44,7 +45,7 @@
     </head>
 
     <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="51">
-        <div class="container-xxl bg-gradient p-3">
+        <div class="container-xxl bg-transparent p-3">
             <!-- Spinner Start -->
             <div
                 id="spinner"
@@ -63,7 +64,7 @@
             <!-- Navbar & Hero Start -->
             <div class="container-xxl position-relative" id="home">
                 <nav
-                    class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0"
+                    class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0 bg-primary"
                 >
                     <a href="" class="navbar-brand p-0">
                         <h1 class="m-0">Let's Talk</h1>
@@ -91,7 +92,7 @@
                         </div>
                         <a
                             href="#"
-                            class="btn btn-primary-gradient rounded-pill py-2 px-4 ms-3 d-none d-lg-block active"
+                            class="btn btn-primary-gradient rounded-pill py-2 px-4 ms-2 d-block active"
                             >Contact</a
                         >
                     </div>
@@ -157,7 +158,7 @@
                                                     ><span class="bi-question-circle-fill m-2"></span>&nbsp; &nbsp;Subject</label
                                                 >
                                         <div class="row-cols-lg-1">
-                                            <select class="browser-default custom-select mb-4" id="feedback">
+                                            <select class="browser-default custom-select mb-4 rounded mt-4 py-3 px-5 gx-4" id="feedback">
                                                     <option value="" disabled>Choose option</option>
                                                     <option value="1" selected>Feedback</option>
                                                     <option value="2">Report a bug</option>
@@ -209,7 +210,7 @@
                     <div class="row g-5">
                         <div class="col-md-12 col-lg-12">
                             <h4 class="text-dark mb-4">Address</h4>
-                            <div class="d-flex gap-4">
+                            <div class="d-flex justify-content-start gap-4 display-block">
                                 <p>
                                     <i class="fa fa-map-marker-alt me-3"></i>
                                     Enugu, Nigeria
