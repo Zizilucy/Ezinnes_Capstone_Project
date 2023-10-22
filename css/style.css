@@ -1076,3 +1076,11 @@ span{
     padding-right: 0;
     border-right: none;
 }
+/**To enable address be on a single line**/
+@media screen and (min-width: 480px) {
+    #extra-search {
+        display: inline-block;
+        width: 450px;
+        height: 100%
+    }
+}
