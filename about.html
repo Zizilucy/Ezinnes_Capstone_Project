@@ -3,9 +3,10 @@
     <head>
         <meta charset="utf-8" />
         <title>About</title>
-        <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+        <meta content="width=device-width, user-scalable=no, initial-scale=1.0" name="viewport"/>
         <meta content="" name="keywords" />
         <meta content="" name="description" />
+        <meta content="yes" name="apple-mobile-web-app-capable"/>
 
         <!-- Favicon -->
         <link href="img/favicon.ico" rel="icon" />
@@ -86,7 +87,7 @@
                         <span class="fa fa-bars"></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarCollapse">
-                        <div class="navbar-nav mx-auto py-0">
+                        <div class="navbar-nav mx-auto py-0 text-warning">
                             <a href="./index.html" class="nav-item nav-link"
                                 >Home</a
                             >
@@ -106,7 +107,8 @@
                     </div>
                 </nav>
                 <!--About Section-->
-                <section class="about">
+                <div class="row">
+                    <section class="about">
                     <div class="main">
                         <div class="about-text shadow shadow-inset shadow-xl p-3 mb-5 bg-light rounded"> 
                             <h1 class="text-center text-primary-gradient">Biography</h1>
@@ -301,7 +303,7 @@
                     <div class="row g-5">
                         <div class="col-md-12 col-lg-12">
                             <h4 class="text-dark mb-4">Address</h4>
-                            <div class="d-flex gap-4">
+                            <div class="d-flex justify-content-start gap-4 display-block">
                                 <p>
                                     <i class="fa fa-map-marker-alt me-3"></i>
                                     Enugu, Nigeria
