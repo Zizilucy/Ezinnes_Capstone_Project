@@ -326,7 +326,7 @@ h6,
         background: linear-gradient(
             to bottom right,
             var(--primary),
-            var(--dark)
+            var(--primary)
         );
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -392,9 +392,11 @@ h6,
     width: 350px;
     margin-top: 40px;
     margin-bottom: 50px;
+    padding-right: 30px;
     float: right;
     margin-left: 5px;
     text-align: justify;
+    align-self: start;
     }
 span{
     color: rgb(171, 119, 6);
@@ -471,7 +473,7 @@ span{
     background-color: rgba(0, 0, 0, 0.05);
     border-radius: 1.25rem;
     color:#ffffff;
-    height: auto;
+    height: 50%;
     width: 120vh;
 }
 .arrow-down{
@@ -548,4 +550,6 @@ span{
     margin-right: 0;
     padding-right: 0;
     border-right: none;
+}
+@media (min-height: 680px), screen and (orientation: portrait) {
 }
