@@ -4,12 +4,7 @@
     --secondary: rgb(66, 6, 6);
     --light: hsl(33, 14%, 13%);
     --dark: #984603;
-}
-* {
-    margin: 0;
-    padding: 0;
-}
-    
+}   
 /***Disable horizontal scroll on mobile view***/
 html, body {
     overflow-x: hidden;
@@ -331,7 +326,7 @@ h6,
         background: linear-gradient(
             to bottom right,
             var(--primary),
-            var(--secondary)
+            var(--dark)
         );
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
@@ -394,7 +389,7 @@ h6,
     width: 420px;
 }
 .about-text {
-    width: 550px;
+    width: 350px;
     margin-top: 40px;
     margin-bottom: 50px;
     float: right;
@@ -413,12 +408,12 @@ span{
     height: 27px;
     margin: 0;
     overflow: visible;
-    border-radius: 50px;
+    border-radius: 10px;
     background: #f3ebe7;
     box-shadow: inset 0 10px 10px rgba(244, 245, 250, 0.9);
 }
 .progress .progress-bar-animated{
-    border-radius: 50px;
+    border-radius: 10px;
 }
 
 /*** Card Hover Effect***/
@@ -459,7 +454,8 @@ span{
     background: #270303;
     align-items: center;
     background: -webkit-linear-gradient(to right, #dddddd, #552006);
-    background: linear-gradient(to right, #dddddd, #552406)
+    background: linear-gradient(to right, #dddddd, #552406);
+    align-content: center;
 }
 .carousel-icon i{
     font-size: 5rem;
@@ -468,6 +464,7 @@ span{
 .carousel-item i{
     font-size: 1.6rem;
     color: rgba(255, 255, 255, 0.3);
+    height: 50px;
 }
 .t-card{
     padding: 1.8125rem 1.125rem;
@@ -475,6 +472,7 @@ span{
     border-radius: 1.25rem;
     color:#ffffff;
     height: auto;
+    width: 120vh;
 }
 .arrow-down{
     width: 0;
