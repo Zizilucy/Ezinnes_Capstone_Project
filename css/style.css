@@ -7,6 +7,7 @@
 } 
 /***Disable horizontal scroll on mobile view***/
 html, body {
+    height: 100%;
     overflow-x: hidden;
     body {
         position: relative;
@@ -468,6 +469,12 @@ span{
     color: rgba(255, 255, 255, 0.3);
     height: 50px;
 }
+.carousel,.item,.active{
+    height:100%;
+  }
+.carousel-inner{
+     height:100%;
+ }
 .t-card{
     padding: 1.8125rem 1.125rem;
     background-color: rgba(0, 0, 0, 0.05);
@@ -483,7 +490,7 @@ span{
     border-right: 1.5625rem solid transparent;
     border-top: 1.25rem solid rgba(143, 9, 9, 0.05);
 }
-@media(max-width:768px){
+@media only screen and(max-width:768px){
     #carouselExampleControls {
       width: 100% !important;
     }
